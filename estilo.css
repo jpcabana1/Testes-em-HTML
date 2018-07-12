@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: gray;
+}
+
+a{
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+a:link{
+	color:#808000;	
+}
+
+a:visited{
+	color:#808000;		
+}
+
+a:hover{
+	color: #DAA520;
+	background: #8B4513;
+}
+
+/*IDs*/
+	#header{
+		background: #800000;
+		border-bottom: 1px #d8d8d8; 
+		width: 100%;
+		height: 45px;
+		position: fixed;
+		top: 0;
+	}
+
+	#area{
+		width: 720px;
+		margin: 0 auto;
+	}
+
+	#menu{
+		float: right;
+		padding: 10px 0px;
+	}
+
+	#logo{
+		float: left;
+	}
+
+	#welcome{
+		margin: 46px auto;
+		background: #CD853F;
+		width: 900px;
+		height: 480px;
+	}
+
+	#direitos{
+		color: #D8BFD8;
+	}
+
+/*Classes*/
+	.marrom{
+		color: #8B4513;
+	}
+
+	.mostarda{
+		color: #DAA520;
+	}
+
+	.bejeC{
+		color: #FFDEAD;
+	}
