@@ -1,0 +1,13 @@
+#box{
+	width: 300px;
+	height: 300px;
+	background: red;
+	padding: 20px;
+	border-radius: 20px;
+	box-sizing: border-box;
+	/*Compatibilidade com outros browsers*/
+	-webkit-border-radius: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-border-radius: 20px;
+	-moz-box-sizing: border-box;
+}
